@@ -82,3 +82,28 @@ h2 {
     font-style: oblique;
     color: rgb(10, 8, 8);
 }
+/* Tablet: 768px and wider */
+@media (min-width: 768px) {
+    main {
+        max-width: 60rem;
+        margin-inline: auto;
+        padding: 2rem;
+        gap: 1.5rem;
+    }
+
+    main section {
+        padding: 1.5rem;
+    }
+}
+
+/* Desktop: 1024px and wider */
+@media (min-width: 1024px) {
+    main {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #home,
+    #contact {
+        grid-column: 1 / -1;
+    }
+}
