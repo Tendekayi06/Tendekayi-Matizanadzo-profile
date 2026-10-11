@@ -50,8 +50,11 @@ main section {
 }
 
 main h2 {
+   main h2 {
     font-size: 1.5rem;
+    font-weight: 700;
     margin: 0 0 0.75rem;
+}
 }
 
 main img {

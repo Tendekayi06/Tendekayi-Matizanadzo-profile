@@ -5,19 +5,22 @@
     <meta name="description" content="Personal profile for Tendekayi Matizanadzo, a CIS student.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My personal profile</title>
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
     <link rel="stylesheet" href="profile.css">
 </head>
 <body>
-    <header>
-        <h1>Tendekayi Matizanadzo</h1>
-        <p>Computer information systems student</p>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about-me">About Me</a>
-            <a href="#contact">Contact</a>
-            <a href="#skills">Skills</a>
-        </nav>
-    </header>
+    <header class="bg-slate-900 px-4 py-6 text-white sm:px-8">
+    <h1 class="text-2xl font-bold text-white sm:text-3xl">Tendekayi Matizanadzo</h1>
+    <p class="text-slate-300">Computer information systems student</p>
+    <nav aria-label="Main">
+        <ul class="mt-4 flex flex-wrap gap-4 sm:justify-end sm:gap-8">
+            <li><a class="underline hover:text-amber-300" href="#home">Home</a></li>
+            <li><a class="underline hover:text-amber-300" href="#about-me">About Me</a></li>
+            <li><a class="underline hover:text-amber-300" href="#skills">Skills</a></li>
+            <li><a class="underline hover:text-amber-300" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
     <main>
         <section id="home">
