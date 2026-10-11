@@ -1,1 +1,15 @@
 h1{ font: 1em sans-serif;}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(17, 17, 17);
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(22, 22, 21);
+}
+
+.bio {
+    font-style: oblique;
+    color: rgb(10, 8, 8);
+}

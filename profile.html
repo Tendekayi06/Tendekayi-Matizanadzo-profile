@@ -2,96 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="personal profile for Tendekayi Matizanadzo a CIS student.">
+    <meta name="description" content="Personal profile for Tendekayi Matizanadzo, a CIS student.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My personal profile</title>
-    <link rel="stlyesheet"href="profile.css">
-    <style>
-        h1{ font-family: 'Courier New', Courier, monospace;color: rgb(17, 17, 17);}
-        h2{ font-style: 'Courier New';color: rgb(22, 22, 21);}
-        .class2{ font-style: oblique;color: rgb(10, 8, 8);}
-    </style>
+    <link rel="stylesheet" href="profile.css">
 </head>
 <body>
     <header>
-
         <h1>Tendekayi Matizanadzo</h1>
-        <p>  computer information systems student</p>
+        <p>Computer information systems student</p>
         <nav>
             <a href="#home">Home</a>
             <a href="#about-me">About Me</a>
             <a href="#contact">Contact</a>
             <a href="#skills">Skills</a>
         </nav>
-       
     </header>
-  
+
     <main>
         <section id="home">
-            
+            <h2>WELCOME</h2>
+            <p>Welcome to my page. Scroll down to learn about me, see my skills, or send me a message.</p>
         </section>
 
         <section id="about-me">
-            <img src="images.jpg\profile.jpg.jpeg" alt="Headshot of Tendekayi smiling, wearing a black shirt, plain background." width="150" height="150">
-            <h2> ABOUT ME</h2>
-            <p class="class2">I am a second year university student studying computer information systems. My interests in software development and problem solving have been pushing me to want to continue growing my skills in programming and web development, thus I'm always ready to jump into any new opportunities that arise for me to be able to improve my skills and build more digital solutions.
-            </p>
+            <img src="images/profile.jpg.jpeg" alt="Headshot of Tendekayi smiling, wearing a black shirt, plain background." width="150" height="150">
+            <h2>ABOUT ME</h2>
+            <p class="bio">I am a second year university student studying computer information systems. My interests in software development and problem solving have been pushing me to want to continue growing my skills in programming and web development, thus I'm always ready to jump into any new opportunities that arise for me to be able to improve my skills and build more digital solutions.</p>
         </section>
-         <section id="skills">
-            <h2>SKILLS</h2>
-            <article> 
-                <ul class="class2">
-                <li> python</li>
-                <li>HTML</li>
-                </ul>
 
-            </article>  
+        <section id="skills">
+            <h2>SKILLS</h2>
+            <article>
+                <ul>
+                    <li>Python</li>
+                    <li>HTML</li>
+                </ul>
+            </article>
         </section>
+
         <section id="contact">
             <h2>CONTACT</h2>
             <form action="#" method="post">
                 <!-- Name -->
-                 <label for="name">Full Name</label>
-                 <input
-                 type="text"
-                 id="name"
-                 name="name"
-                 required
-                 minlength="5"
-                 >
-                 <!-- Email -->
-                 <label for="email">Email Address</label>
-                 <input
-                 type="email"
-                 id="email"
-                 name="email"
-                 required
-                >
-                 <!-- Phone -->
-                 <label for="phone">Phone Number</label>
-                 <input
-                 type="tel"
-                 id="phone"
-                 name="phone"
-                 required
-                 >
-                  <!-- Message -->
-                 <label for="message">Message:</label>
-                 <textarea
-                 id="message"
-                 name="message"
-                 required
-                 minlength="10"
-                 ></textarea>
-                 <!-- Submit -->
-                  <button type="submit">Send Message</button>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required minlength="5">
+                <!-- Email -->
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+                <!-- Phone -->
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+                <!-- Message -->
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required minlength="10"></textarea>
+                <!-- Submit -->
+                <button type="submit">Send Message</button>
             </form>
-           
         </section>
-       
     </main>
+
     <footer>
-        <p> &copy; 2026 Tendekayi Matizanadzo</p>
+        <p>&copy; 2026 Tendekayi Matizanadzo</p>
     </footer>
 </body>
 </html>
