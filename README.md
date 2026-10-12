@@ -19,7 +19,7 @@ html website creation
 ## Responsive Notes
 
 **Breakpoints tested:** 375px (mobile), 768px (tablet) and 1280px (desktop) using
-the Chrome DevTools device toolbar. No horizontal scrolling, overlapping text, or
+the Edge DevTools device toolbar. No horizontal scrolling, overlapping text, or
 console errors at any of the three widths.
 
 **Flexbox vs Grid:** Flexbox is used for the navigation links and the skills pills,
